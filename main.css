@@ -38,6 +38,11 @@ body {
 
 .home_nav ul li a {
     text-decoration-color: #C85C5C;
+    transition: all, 1s, ease-in-out;
+}
+
+.home_nav ul li a:hover {
+    text-decoration-color: #B2EA70 ;
 }
 
 /* estilos del home header */
@@ -248,6 +253,11 @@ body {
 
 .infonutrimental_nav ul li a {
     text-decoration-color: #C85C5C;
+    transition: all, 1s, ease-in-out;
+}
+
+.infonutrimental_nav ul li a:hover {
+    text-decoration-color: #B2EA70;
 }
 
 /* estilos del infonutrimental header */
@@ -388,6 +398,11 @@ body {
 
 .contacto_nav ul li a {
     text-decoration-color: #C85C5C;
+    transition: all, 1s, ease-in-out;
+}
+
+.contacto_nav ul li a:hover {
+    text-decoration-color: #B2EA70;
 }
 
 /* estilos del contacto header */
