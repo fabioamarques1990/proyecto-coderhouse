@@ -615,7 +615,11 @@ body {
     flex-direction: column;
     background-color: #B2EA70;
     justify-content: space-around;
+    transition: all, 1s. ease-in-out;
+}
 
+.sobre_nosotros_main_section_1:hover {
+    opacity: .8;
 }
 
 .sobre_nosotros_main_section_1 h2 {
@@ -636,7 +640,11 @@ body {
     flex-direction: column;
     background-color: #F9975D;
     justify-content: space-around;
+    transition: all, 1s. ease-in-out;
+}
 
+.sobre_nosotros_main_section_2:hover {
+    opacity: .8;
 }
 
 .sobre_nosotros_main_section_2 h2 {
