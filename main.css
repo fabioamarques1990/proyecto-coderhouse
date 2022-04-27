@@ -106,6 +106,11 @@ body {
     text-align: center;
     padding: 25px;
     font-size: 20px;
+    transform: all, 1s, ease-in-out;
+}
+
+.home_main_section_1:hover {
+    transform: rotate(10deg);
 }
 
 .home_main_section_2 {
@@ -117,6 +122,11 @@ body {
     text-align: center;
     padding: 25px;
     font-size: 20px;
+    transform: all, 1s, ease-in-out;
+}
+
+.home_main_section_2:hover {
+    transform: rotate(-10deg);
 }
 
 /* estilos del home footer */
