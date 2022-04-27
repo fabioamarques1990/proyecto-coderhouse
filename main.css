@@ -57,6 +57,27 @@ body {
 .home_header h1 {
     color: #C85C5C;
     font-size: 3em;
+    animation-name: titulo_home;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes titulo_home {
+    0% {
+        font-size: 3em;
+    }
+
+    25% {
+        font-size: 4em;
+    }
+
+    50% {
+        font-size: 5em;
+    }
+
+    75% {
+        font-size: 4em;
+    }
 }
 
 .home_header img {
