@@ -295,7 +295,7 @@ body {
     width: 75px;
 }
 
-.infonutrimental_main_section_1 {
+.infonutrimental_main_section {
     display: grid;
     grid-template-areas:
     "h2"
@@ -304,42 +304,33 @@ body {
     ;
 }
 
-.infonutrimental_main_section_1 h2 {
+.infonutrimental_main_section h2 {
     grid-area: h2;
 }
 
-.infonutrimental_main_section_1_tabla_1 {
+.infonutrimental_main_section_tabla_1 {
     grid-area: tabla1;
     height: 500px;
     width: 20px;
 }
 
-.infonutrimental_main_section_1_tabla_2 {
+.infonutrimental_main_section_tabla_2 {
     grid-area: tabla2;
     height: 500px;
     width: 35px;
 }
 
-.infonutrimental_main_section_2 {
-    display: grid;
-    grid-template-areas:
-    "h2"
-    "tabla1"
-    "tabla2"
-    ;
-}
-
-.infonutrimental_main_section_2 h2 {
+.infonutrimental_main_section h2 {
     grid-area: h2;
 }
 
-.infonutrimental_main_section_2_tabla_1 {
+.infonutrimental_main_section_tabla_1 {
     grid-area: tabla1;
     height: 500px;
     width: 35px;
 }
 
-.infonutrimental_main_section_2_tabla_2 {
+.infonutrimental_main_section_tabla_2 {
     grid-area: tabla2;
     height: 500px;
     width: 35px;
@@ -359,7 +350,7 @@ body {
     background-color: #F9975D;
 }
 
-.infonutrimental_main_section_2 {
+.infonutrimental_main_section {
     margin-top: 75px;
 }
 
@@ -748,7 +739,7 @@ body {
         }
 
         /* media queries del infonutrimental main */
-        .infonutrimental_main_section_1 {
+        .infonutrimental_main_section {
             display: grid;
             grid-template-areas:
             "h2 h2"
@@ -756,35 +747,27 @@ body {
             ;
         }
 
-        .infonutrimental_main_section_1 h2 {
+        .infonutrimental_main_section h2 {
             grid-area: h2;
         }
         
-        .infonutrimental_main_section_1_tabla_1 {
+        .infonutrimental_main_section_tabla_1 {
             grid-area: tabla1;
         }
         
-        .infonutrimental_main_section_1_tabla_2 {
+        .infonutrimental_main_section_tabla_2 {
             grid-area: tabla2;
         }
 
-        .infonutrimental_main_section_2 {
-            display: grid;
-            grid-template-areas:
-            "h2 h2"
-            "tabla1 tabla2"
-            ;
-        }
-
-        .infonutrimental_main_section_2 h2 {
+        .infonutrimental_main_section h2 {
             grid-area: h2;
         }
         
-        .infonutrimental_main_section_2_tabla_1 {
+        .infonutrimental_main_section_tabla_1 {
             grid-area: tabla1;
         }
         
-        .infonutrimental_main_section_2_tabla_2 {
+        .infonutrimental_main_section_tabla_2 {
             grid-area: tabla2;
         }
 
