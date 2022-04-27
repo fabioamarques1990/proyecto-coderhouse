@@ -138,6 +138,11 @@ body {
     text-decoration: none;
     background-color: #B2EA70;
     border-radius: 10px;
+    transition: all, 1s, ease-in-out;
+}
+
+.sabores_nav ul li a:hover {
+    background-color: #FBD148;
 }
 
 /* estilos del sabores header */
@@ -547,6 +552,11 @@ body {
     text-decoration: none;
     background-color: #FBD148;
     border-radius: 10px;
+    transition: all, 1s, ease-in-out;
+}
+
+.sobre_nosotros_nav ul li a:hover {
+    background-color: #B2EA70 ;
 }
 
 /* estilos del sobre nosotros header */
