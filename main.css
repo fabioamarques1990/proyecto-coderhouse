@@ -10,6 +10,7 @@ body {
     "nav"
     "header"
     "main"
+    "galeria"
     "footer"
     ;
 }
@@ -127,6 +128,10 @@ body {
     transform: rotate(-10deg);
 }
 
+.container {
+    grid-area: galeria;
+}
+
 /* estilos del home footer */
 .home_footer {
     grid-area: footer;
@@ -199,7 +204,7 @@ body {
 }
 
 /* estilos de sabores main */
-.sabores_main {
+/* .sabores_main {
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -234,7 +239,7 @@ body {
 
 .sabores_main h2 {
     font-style: italic;
-}
+} */
 
 /* estilos de sabores footer */
 .sabores_footer {
@@ -307,7 +312,7 @@ body {
     margin-left: 50px;
     font-style: oblique;
     color: antiquewhite;
-    width: 75px;
+    width: 125px;
 }
 
 .infonutrimental_main_section {
@@ -589,6 +594,7 @@ body {
         "nav nav"
         "header header"
         "main main"
+        "galeria galeria"
         "footer footer"
         ;
     }
@@ -632,7 +638,7 @@ body {
         width: 500px;
         border-radius: 150px;
     }
-    
+
     .home_main_section_2 {
         margin: 50px 50px 100px 0;
         font-size: 22px;
@@ -666,7 +672,7 @@ body {
         }
 
         /* media queries del sabores main */
-        .sabores_main {
+        /* .sabores_main {
             margin-top: 50px;
             display: flex;
             justify-content: space-evenly;
@@ -689,7 +695,7 @@ body {
         
         .sabores_main_section_2 {
             font-size: 25px;
-        }
+        } */
 
         /* media queries para la página infonutrimental */
 
