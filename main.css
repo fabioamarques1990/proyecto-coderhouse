@@ -467,7 +467,7 @@ body {
     margin: 72px 0;
 }
 
-.contacto_footer_div_form {
+/* .contacto_footer_div_form {
     display: flex;
     flex-direction: column;
     height: 400px;
@@ -486,7 +486,7 @@ body {
     border-color: #C85C5C;
     width: 250px;
     align-self: center;
-}
+} */
 
 .contacto_footer ul {
     display: flex;
@@ -800,11 +800,11 @@ body {
         }
 
         /* media queries del contacto footer */
-        .contacto_footer_div {
+        /* .contacto_footer_div {
             display: flex;
             justify-content: center;
             width: 875px;
-        }
+        } */
 
         /* media queries para la página spbre nosotros */
         
