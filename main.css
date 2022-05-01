@@ -17,13 +17,13 @@ body {
 /* iniciando estilos de la página home */
 
 /* estilos del home nav */
-.home_nav {
+.navbar {
     grid-area: nav;
     display: flex;
     flex-direction: column;
 }
 
-.home_nav ul {
+/* .home_nav ul {
     display: flex;
     flex-direction: column;
     list-style-type: none;
@@ -43,7 +43,7 @@ body {
 
 .home_nav ul li a:hover {
     text-decoration-color: #B2EA70 ;
-}
+} */
 
 /* estilos del home header */
 .home_header {
@@ -59,7 +59,7 @@ body {
     font-size: 3em;
     animation-name: titulo_home;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4s;
 }
 
 @keyframes titulo_home {
@@ -684,16 +684,20 @@ body {
     }
 
     /* media queries del home nav */
-    .home_nav {
+    /* .home_nav {
         grid-area: nav;
         display: flex;
         align-items: flex-end;
-    }
+    } */
 
-    .home_nav ul {
+    /* .home_nav ul {
         display: flex;
         flex-direction: row;
         margin-right: 25px;
+    } */
+
+    .collapse, .navbar-collapse {
+        justify-content: flex-end;
     }
 
     /* media queries del home header */
