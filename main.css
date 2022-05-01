@@ -19,8 +19,6 @@ body {
 /* estilos del home nav */
 .navbar {
     grid-area: nav;
-    display: flex;
-    flex-direction: column;
 }
 
 /* .home_nav ul {
@@ -267,35 +265,6 @@ body {
 
 /* iniciando estilos de la página infonutrimental */
 
-/* estilos de infonutrimental nav */
-.infonutrimental_nav {
-    grid-area: nav;
-    display: flex;
-    flex-direction: column;
-}
-
-.infonutrimental_nav ul {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    align-items: center;
-}
-
-.infonutrimental_nav ul li {
-    margin: 0 10px;
-    font-size: 20px;
-    padding: 5px 0;
-}
-
-.infonutrimental_nav ul li a {
-    text-decoration-color: #C85C5C;
-    transition: all, 1s, ease-in-out;
-}
-
-.infonutrimental_nav ul li a:hover {
-    text-decoration-color: #B2EA70;
-}
-
 /* estilos del infonutrimental header */
 .infonutrimental_header {
     display: flex;
@@ -411,35 +380,6 @@ body {
 }
 
 /* iniciando estilos de la página contacto */
-
-/* estilos de contacto nav */
-.contacto_nav {
-    grid-area: nav;
-    display: flex;
-    flex-direction: column;
-}
-
-.contacto_nav ul {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    align-items: center;
-}
-
-.contacto_nav ul li {
-    margin: 0 10px;
-    font-size: 20px;
-    padding: 5px 0;
-}
-
-.contacto_nav ul li a {
-    text-decoration-color: #C85C5C;
-    transition: all, 1s, ease-in-out;
-}
-
-.contacto_nav ul li a:hover {
-    text-decoration-color: #B2EA70;
-}
 
 /* estilos del contacto header */
 .contacto_header {
@@ -560,36 +500,6 @@ body {
 
 /* iniciando estilos de la página sobre nosotros */
 
-/* estilos del sobre nosotros nav */
-.sobre_nosotros_nav {
-    display: flex;
-    flex-direction: column;
-}
-
-.sobre_nosotros_nav ul {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    align-items: center;
-}
-
-.sobre_nosotros_nav ul li {
-    margin: 0 10px;
-    font-size: 20px;
-    padding: 5px 0;
-}
-
-.sobre_nosotros_nav ul li a {
-    text-decoration: none;
-    background-color: #FBD148;
-    border-radius: 10px;
-    transition: all, 1s, ease-in-out;
-}
-
-.sobre_nosotros_nav ul li a:hover {
-    background-color: #B2EA70 ;
-}
-
 /* estilos del sobre nosotros header */
 .sobre_nosotros_header {
     display: flex;
@@ -684,6 +594,7 @@ body {
     }
 
     /* media queries del home nav */
+   
     /* .home_nav {
         grid-area: nav;
         display: flex;
@@ -738,18 +649,6 @@ body {
 
     /* media queries para la página sabores */
 
-    /* media queries del sabores nav */
-    .sabores_nav {
-        display: flex;
-        align-items: flex-end;
-    }
-
-    .sabores_nav ul {
-        display: flex;
-        flex-direction: row;
-        margin-right: 25px;
-    }
-
     /* media queries del sabores header */
     .sabores_header img {
         border-radius: 100px;
@@ -794,18 +693,6 @@ body {
 
         /* media queries para la página infonutrimental */
 
-        /* media queries del infonutrimental nav */
-        .infonutrimental_nav {
-            display: flex;
-            align-items: flex-end;
-        }
-    
-        .infonutrimental_nav ul {
-            display: flex;
-            flex-direction: row;
-            margin-right: 25px;
-        }
-
         /* media queries del infonutrimental main */
         .infonutrimental_main_section {
             display: grid;
@@ -840,18 +727,6 @@ body {
         }
 
         /* media queries para la página contacto */
-
-        /* media queries del contacto nav */
-        .contacto_nav {
-            display: flex;
-            align-items: flex-end;
-        }
-    
-        .contacto_nav ul {
-            display: flex;
-            flex-direction: row;
-            margin-right: 25px;
-        }
 
         /* media queries del contacto main */
         .contacto_main img {
@@ -926,18 +801,6 @@ body {
         }
 
         /* media queries para la página spbre nosotros */
-
-        /* media queries del sobre nosotros nav */
-        .sobre_nosotros_nav {
-            display: flex;
-            align-items: flex-end;
-        }
-    
-        .sobre_nosotros_nav ul {
-            display: flex;
-            flex-direction: row;
-            margin-right: 25px;
-        }
         
         /* media queries del sobre nosotros main */
         .sobre_nosotros_main {
