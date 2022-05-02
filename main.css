@@ -128,7 +128,7 @@ body {
     transform: rotate(-10deg);
 }
 
-.container {
+.home_galeria {
     grid-area: galeria;
 }
 
@@ -613,7 +613,7 @@ body {
         margin-right: 25px;
     } */
 
-    .collapse, .navbar-collapse {
+    .home_nav, .home_nav_lista {
         justify-content: flex-end;
     }
 
