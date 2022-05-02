@@ -128,6 +128,7 @@ body {
     transform: rotate(-10deg);
 }
 
+/* estilos de home galeria */
 .home_galeria {
     grid-area: galeria;
 }
@@ -435,7 +436,7 @@ body {
     background-color: #F9975D;
     border-radius: 22%;
     margin: 8px;
-    height: 400px;
+    height: 450px;
 }
 
 .contacto_main_section_div_1 p {
@@ -451,7 +452,7 @@ body {
     background-color: #B2EA70;
     border-radius: 22%;
     margin: 8px;
-    height: 680px;
+    height: 710px;
 }
 
 .contacto_main_section_div_2 p {
@@ -613,7 +614,7 @@ body {
         margin-right: 25px;
     } */
 
-    .home_nav, .home_nav_lista {
+    .navbar, .navbar-collapse {
         justify-content: flex-end;
     }
 
@@ -634,8 +635,8 @@ body {
     .home_main_section_1 {
         margin: 100px 50px;
         font-size: 22px;
-        height: 500px;
-        width: 500px;
+        height: 550px;
+        width: 550px;
         border-radius: 150px;
     }
 
