@@ -59,7 +59,7 @@ body {
     font-size: 3em;
     animation-name: titulo_home;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4s;
 }
 
 @keyframes titulo_home {
