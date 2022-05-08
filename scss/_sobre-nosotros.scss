@@ -1,0 +1,78 @@
+/* estilos del sobre nosotros header */
+.sobre_nosotros_header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+
+    h1 {
+        color: $color-rosa;
+        font-size: 3em;
+        text-align: center;
+    }
+
+    p {
+        font-size: 2em;
+        text-align: center;
+    }
+}
+
+/* estilos del sobre nosotros main */
+.sobre_nosotros_main_section_1 {
+    margin: 50px 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: $color-verde;
+    justify-content: space-around;
+    transition: all, 1s, ease-in-out;
+}
+
+.sobre_nosotros_main_section_1:hover {
+    opacity: .8;
+}
+
+.sobre_nosotros_main_section_1 h2 {
+    padding: 15px;
+    border-radius: 40%;
+    text-align: center;
+    font-size: 2em;
+}
+
+.sobre_nosotros_main_section_1 p {
+    font-size: 20px;
+    margin: 5px 10px;
+}
+
+.sobre_nosotros_main_section_2 {
+    margin: 50px 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: $color-naranja;
+    justify-content: space-around;
+    transition: all, 1s, ease-in-out;
+}
+
+.sobre_nosotros_main_section_2:hover {
+    opacity: .8;
+}
+
+.sobre_nosotros_main_section_2 h2 {
+    padding: 15px;
+    border-radius: 40%;
+    text-align: center;
+    font-size: 2em;
+}
+
+.sobre_nosotros_main_section_2 p {
+    font-size: 20px;
+    margin: 5px 10px;
+}
+
+/* estilos del sobre nosotros footer */
+.sobre_nosotros_footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    font-weight: bold;
+    color: $color-rosa;
+}

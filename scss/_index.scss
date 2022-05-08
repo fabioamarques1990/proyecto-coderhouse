@@ -1,0 +1,137 @@
+/* diseño del home grid */
+.home {
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "galeria"
+    "footer"
+    ;
+}
+
+/* estilos del home nav */
+.navbar {
+    grid-area: nav;
+}
+
+/* .home_nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+}
+
+.home_nav ul li {
+    margin: 0 10px;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.home_nav ul li a {
+    text-decoration-color: #C85C5C;
+    transition: all, 1s, ease-in-out;
+}
+
+.home_nav ul li a:hover {
+    text-decoration-color: #B2EA70 ;
+} */
+
+/* estilos del home header */
+.home_header {
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+
+    h1 {
+        color: $color-rosa;
+        font-size: 3em;
+        animation-name: titulo_home;
+        animation-duration: 3s;
+        animation-iteration-count: 4s;
+    }
+
+    img {
+        width: 100%;
+        max-height: 430px;
+    }
+    
+    h2 {
+        color: $color-rosa;
+    }
+}
+
+@keyframes titulo_home {
+    0% {
+        font-size: 3em;
+    }
+
+    25% {
+        font-size: 4em;
+    }
+
+    50% {
+        font-size: 5em;
+    }
+
+    75% {
+        font-size: 4em;
+    }
+}
+
+/* estilos del home main */
+.home_main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    background-image: url('assets/background-image.jpg');
+
+.home_main_section_1 {
+        background-color: $color-naranja;
+        margin: 50px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 25px;
+        font-size: 20px;
+        transform: all, 1s, ease-in-out;
+    }
+
+    .home_main_section_1:hover {
+        transform: rotate(10deg);
+    }
+
+    .home_main_section_2 {
+        background-color: $color-amarillo;
+        margin: 50px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 25px;
+        font-size: 20px;
+        transform: all, 1s, ease-in-out;
+    }
+    
+    .home_main_section_2:hover {
+        transform: rotate(-10deg);
+    }
+}
+
+/* estilos de home galeria */
+.home_galeria {
+    grid-area: galeria;
+}
+
+/* estilos del home footer */
+.home_footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    font-weight: bold;
+    color: $color-amarillo;
+}

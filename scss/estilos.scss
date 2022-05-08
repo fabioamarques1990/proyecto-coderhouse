@@ -1,0 +1,13 @@
+/* tipo de fuente para todos los html */
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+@import "variables";
+@import "index";
+@import "sabores";
+@import "infonutrimental";
+@import "contacto";
+@import "sobre-nosotros";
+@import "mediaqueries";
+
