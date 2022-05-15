@@ -6,7 +6,11 @@ body {
 /* diseño del home grid */
 .home {
   display: grid;
-  grid-template-areas: "nav" "header" "main" "galeria" "footer"; }
+  grid-template-areas: "nav"
+ "header"
+ "main"
+ "galeria"
+ "footer"; }
 
 /* estilos del home nav */
 .navbar {
@@ -243,7 +247,9 @@ body {
 
 .infonutrimental_main_section {
   display: grid;
-  grid-template-areas: "h2" "tabla1" "tabla2"; }
+  grid-template-areas: "h2"
+ "tabla1"
+ "tabla2"; }
 
 .infonutrimental_main_section h2 {
   grid-area: h2; }
@@ -326,7 +332,7 @@ body {
 .contacto_main img {
   display: none; }
 
-.contacto_main_section_div_1 {
+.contacto_main_section_div_1, .contacto_main_section_div_2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -335,26 +341,20 @@ body {
   margin: 8px;
   height: 450px; }
 
-.contacto_main_section_div_1 p {
+.contacto_main_section_div_1 p, .contacto_main_section_div_2 p {
   font-size: 18px;
   color: antiquewhite;
   margin: 0 10px; }
 
 .contacto_main_section_div_2 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   background-color: #B2EA70;
-  border-radius: 22%;
-  margin: 8px;
   height: 710px; }
 
 .contacto_main_section_div_2 p {
-  font-size: 18px;
-  margin: 0 10px; }
+  color: black; }
 
 /* estilos del contacto footer */
-.contacto_footer {
+
   /* .contacto_footer_div_form {
     display: flex;
     flex-direction: column;
@@ -374,7 +374,8 @@ body {
     border-color: #C85C5C;
     width: 250px;
     align-self: center;
-} */ }
+} */
+
   .contacto_footer h3 {
     color: #C85C5C;
     text-align: center;
@@ -457,11 +458,17 @@ body {
   color: #C85C5C; }
 
 /* estas son las media queries de todas las páginas */
-@media screen and (min-width: 768px) {
+/* mapa de media queries */
+/* inicio de las media queries a partir de 768px */
+@media (min-width: 768px) {
   /* media queries para la página home */
   .home {
     display: grid;
-    grid-template-areas: "nav nav" "header header" "main main" "galeria galeria" "footer footer"; }
+    grid-template-areas: "nav nav"
+ "header header"
+ "main main"
+ "galeria galeria"
+ "footer footer"; }
   /* media queries del home nav */
   /* .home_nav {
         grid-area: nav;
@@ -541,7 +548,8 @@ body {
   /* media queries del infonutrimental main */
   .infonutrimental_main_section {
     display: grid;
-    grid-template-areas: "h2 h2" "tabla1 tabla2"; }
+    grid-template-areas: "h2 h2"
+ "tabla1 tabla2"; }
   .infonutrimental_main_section h2 {
     grid-area: h2; }
   .infonutrimental_main_section_tabla_1 {
@@ -573,7 +581,7 @@ body {
     width: 85%;
     border-radius: 22%;
     justify-content: space-around; }
-  .contacto_main_section_div_1 {
+  .contacto_main_section_div_1, .contacto_main_section_div_2 {
     display: flex;
     margin: 50px; }
   .contacto_main img {
@@ -582,7 +590,7 @@ body {
     height: 250px;
     width: 150px;
     align-self: center; }
-  .contacto_main_section_div_1 p {
+  .contacto_main_section_div_1 p, .contacto_main_section_div_2 p {
     font-size: 20px;
     color: antiquewhite; }
   .contacto_main_section_2 {

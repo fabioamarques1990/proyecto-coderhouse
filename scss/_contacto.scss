@@ -57,18 +57,13 @@
 }
 
 .contacto_main_section_div_2 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @extend .contacto_main_section_div_1;
     background-color: $color-verde;
-    border-radius: 22%;
-    margin: 8px;
     height: 710px;
 }
 
 .contacto_main_section_div_2 p {
-    font-size: 18px;
-    margin: 0 10px;
+    color: black;
 }
 
 /* estilos del contacto footer */
