@@ -29,20 +29,6 @@ $breakpoints: (
         ;
     }
 
-    /* media queries del home nav */
-   
-    /* .home_nav {
-        grid-area: nav;
-        display: flex;
-        align-items: flex-end;
-    } */
-
-    /* .home_nav ul {
-        display: flex;
-        flex-direction: row;
-        margin-right: 25px;
-    } */
-
     .navbar, .navbar-collapse {
         justify-content: flex-end;
     }
@@ -100,32 +86,6 @@ $breakpoints: (
             display: block;
         }
     }
-
-        /* media queries del sabores main */
-        /* .sabores_main {
-            margin-top: 50px;
-            display: flex;
-            justify-content: space-evenly;
-            background-color: #C85C5C;
-            border-radius: 25px;
-            color: antiquewhite;
-        }
-        
-        .sabores_main h2 {
-            display: flex;
-            background-color: #B2EA70;
-            padding: 18px;
-            border-radius: 50px;
-            color: #C85C5C;
-        }
-        
-        .sabores_main_section_1 {
-            font-size: 25px;
-        }
-        
-        .sabores_main_section_2 {
-            font-size: 25px;
-        } */
 
         /* media queries para la página infonutrimental */
 
@@ -228,13 +188,6 @@ $breakpoints: (
         .contacto_main_section_div_2 p {
             font-size: 20px;
         }
-
-        /* media queries del contacto footer */
-        /* .contacto_footer_div {
-            display: flex;
-            justify-content: center;
-            width: 875px;
-        } */
 
         /* media queries para la página spbre nosotros */
         

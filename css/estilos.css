@@ -16,27 +16,6 @@ body {
 .navbar {
   grid-area: nav; }
 
-/* .home_nav ul {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    align-items: center;
-}
-
-.home_nav ul li {
-    margin: 0 10px;
-    font-size: 20px;
-    padding: 5px 0;
-}
-
-.home_nav ul li a {
-    text-decoration-color: #C85C5C;
-    transition: all, 1s, ease-in-out;
-}
-
-.home_nav ul li a:hover {
-    text-decoration-color: #B2EA70 ;
-} */
 /* estilos del home header */
 .home_header {
   grid-area: header;
@@ -152,43 +131,6 @@ body {
   .sabores_header p {
     text-align: center; }
 
-/* estilos de sabores main */
-/* .sabores_main {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #C85C5C;
-    border-radius: 25px;
-    color: antiquewhite;
-}
-
-.sabores_main h2 {
-    display: flex;
-    background-color: #B2EA70;
-    padding: 18px;
-    border-radius: 50px;
-    color: #C85C5C;
-}
-
-.sabores_main_section_1 {
-    font-size: 15px;
-}
-
-.sabores_main_section_1 ul {
-    list-style: circle;
-}
-
-.sabores_main_section_2 {
-    font-size: 15px;
-}
-
-.sabores_main_section_2 ul {
-    list-style: circle;
-}
-
-.sabores_main h2 {
-    font-style: italic;
-} */
 /* estilos de sabores footer */
 .sabores_footer {
   margin-top: 50px;
@@ -340,57 +282,36 @@ body {
   border-radius: 22%;
   margin: 8px;
   height: 450px; }
-
-.contacto_main_section_div_1 p, .contacto_main_section_div_2 p {
-  font-size: 18px;
-  color: antiquewhite;
-  margin: 0 10px; }
+  .contacto_main_section_div_1 p, .contacto_main_section_div_2 p {
+    font-size: 18px;
+    color: antiquewhite;
+    margin: 0 10px; }
 
 .contacto_main_section_div_2 {
   background-color: #B2EA70;
   height: 710px; }
-
-.contacto_main_section_div_2 p {
-  color: black; }
+  .contacto_main_section_div_2 p {
+    color: black; }
 
 /* estilos del contacto footer */
+.contacto_footer h3 {
+  color: #C85C5C;
+  text-align: center;
+  font-size: 24px;
+  margin: 72px 0; }
 
-  /* .contacto_footer_div_form {
-    display: flex;
-    flex-direction: column;
-    height: 400px;
-    width: 550px;
-    justify-content: space-evenly;
-    align-items: center;
-    align-self: center;
-}
+.contacto_footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 75px; }
 
-.contacto_footer_div {
-    background-color: #FBD148;
-    display: flex;
-    justify-content: center;
-    border-radius: 50px;
-    border-style: double;
-    border-color: #C85C5C;
-    width: 250px;
-    align-self: center;
-} */
+.contacto_footer li {
+  padding: 0 8px; }
 
-  .contacto_footer h3 {
-    color: #C85C5C;
-    text-align: center;
-    font-size: 24px;
-    margin: 72px 0; }
-  .contacto_footer ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    margin-top: 75px; }
-  .contacto_footer li {
-    padding: 0 8px; }
-  .contacto_footer img {
-    height: 20px;
-    width: 20px; }
+.contacto_footer img {
+  height: 20px;
+  width: 20px; }
 
 /* estilos del sobre nosotros header */
 .sobre_nosotros_header {
@@ -469,17 +390,6 @@ body {
  "main main"
  "galeria galeria"
  "footer footer"; }
-  /* media queries del home nav */
-  /* .home_nav {
-        grid-area: nav;
-        display: flex;
-        align-items: flex-end;
-    } */
-  /* .home_nav ul {
-        display: flex;
-        flex-direction: row;
-        margin-right: 25px;
-    } */
   .navbar, .navbar-collapse {
     justify-content: flex-end; }
   /* media queries del home header */
@@ -519,31 +429,6 @@ body {
     .sabores_header img {
       border-radius: 100px;
       display: block; }
-  /* media queries del sabores main */
-  /* .sabores_main {
-            margin-top: 50px;
-            display: flex;
-            justify-content: space-evenly;
-            background-color: #C85C5C;
-            border-radius: 25px;
-            color: antiquewhite;
-        }
-        
-        .sabores_main h2 {
-            display: flex;
-            background-color: #B2EA70;
-            padding: 18px;
-            border-radius: 50px;
-            color: #C85C5C;
-        }
-        
-        .sabores_main_section_1 {
-            font-size: 25px;
-        }
-        
-        .sabores_main_section_2 {
-            font-size: 25px;
-        } */
   /* media queries para la página infonutrimental */
   /* media queries del infonutrimental main */
   .infonutrimental_main_section {
@@ -608,12 +493,6 @@ body {
     margin: 50px; }
   .contacto_main_section_div_2 p {
     font-size: 20px; }
-  /* media queries del contacto footer */
-  /* .contacto_footer_div {
-            display: flex;
-            justify-content: center;
-            width: 875px;
-        } */
   /* media queries para la página spbre nosotros */
   /* media queries del sobre nosotros main */
   .sobre_nosotros_main {

@@ -48,22 +48,22 @@
     border-radius: 22%;
     margin: 8px;
     height: 450px;
-}
 
-.contacto_main_section_div_1 p {
-    font-size: 18px;
-    color: antiquewhite;
-    margin: 0 10px;  
+    p {
+        font-size: 18px;
+        color: antiquewhite;
+        margin: 0 10px;  
+    }
 }
 
 .contacto_main_section_div_2 {
     @extend .contacto_main_section_div_1;
     background-color: $color-verde;
     height: 710px;
-}
 
-.contacto_main_section_div_2 p {
-    color: black;
+    p {
+        color: black;
+    }
 }
 
 /* estilos del contacto footer */
@@ -75,27 +75,6 @@
         font-size: 24px;
         margin: 72px 0;
     }
-
-/* .contacto_footer_div_form {
-    display: flex;
-    flex-direction: column;
-    height: 400px;
-    width: 550px;
-    justify-content: space-evenly;
-    align-items: center;
-    align-self: center;
-}
-
-.contacto_footer_div {
-    background-color: #FBD148;
-    display: flex;
-    justify-content: center;
-    border-radius: 50px;
-    border-style: double;
-    border-color: #C85C5C;
-    width: 250px;
-    align-self: center;
-} */
 
     ul {
         display: flex;
