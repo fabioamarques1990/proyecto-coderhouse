@@ -18,37 +18,21 @@ $breakpoints: (
     @include breakpoint(tablet) {
         
     /* media queries para la página home */
-    .home {
-        display: grid;
-        grid-template-areas:
-        "nav nav"
-        "header header"
-        "main main"
-        "galeria galeria"
-        "footer footer"
-        ;
-    }
-
     .navbar, .navbar-collapse {
         justify-content: flex-end;
     }
 
     /* media queries del home header */
     .home_header {
-        grid-area: header;
-
+        
         h1 {
             font-size: 5em;
         }
     }
 
     /* media queries del home main */
-    .home_main {
-        grid-area: main;
-    }
-
     .home_main_section_1 {
-        margin: 100px 50px;
+        margin: 100px 150px;
         font-size: 22px;
         height: 550px;
         width: 550px;
@@ -56,17 +40,12 @@ $breakpoints: (
     }
 
     .home_main_section_2 {
-        margin: 50px 50px 100px 0;
+        margin: 50px 150px 100px 0;
         font-size: 22px;
         height: 500px;
         width: 500px;
         border-radius: 150px;
         align-self: flex-end;
-    }
-
-    /* media queries del home footer */
-    .home_footer {
-        grid-area: footer;
     }
 
     /* media queries para la página sabores */
@@ -96,30 +75,6 @@ $breakpoints: (
             "h2 h2"
             "tabla1 tabla2"
             ;
-        }
-
-        .infonutrimental_main_section h2 {
-            grid-area: h2;
-        }
-        
-        .infonutrimental_main_section_tabla_1 {
-            grid-area: tabla1;
-        }
-        
-        .infonutrimental_main_section_tabla_2 {
-            grid-area: tabla2;
-        }
-
-        .infonutrimental_main_section h2 {
-            grid-area: h2;
-        }
-        
-        .infonutrimental_main_section_tabla_1 {
-            grid-area: tabla1;
-        }
-        
-        .infonutrimental_main_section_tabla_2 {
-            grid-area: tabla2;
         }
 
         /* media queries para la página contacto */

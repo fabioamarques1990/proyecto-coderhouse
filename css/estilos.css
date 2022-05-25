@@ -3,22 +3,16 @@
 body {
   font-family: 'Nanum Gothic', sans-serif; }
 
-/* diseño del home grid */
-.home {
-  display: grid;
-  grid-template-areas: "nav"
- "header"
- "main"
- "galeria"
- "footer"; }
+/* estilos del banner */
+.home_banner {
+  background-color: #B2EA70; }
 
 /* estilos del home nav */
-.navbar {
-  grid-area: nav; }
+.bg-color-home {
+  background-color: #FBD148; }
 
 /* estilos del home header */
 .home_header {
-  grid-area: header;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -47,13 +41,12 @@ body {
 
 /* estilos del home main */
 .home_main {
-  grid-area: main;
   display: flex;
   flex-direction: column;
   background-image: url("assets/background-image.jpg"); }
   .home_main .home_main_section_1 {
     background-color: #F9975D;
-    margin: 50px 10px;
+    margin: 50px 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,7 +58,7 @@ body {
     transform: rotate(10deg); }
   .home_main .home_main_section_2 {
     background-color: #FBD148;
-    margin: 50px 10px;
+    margin: 50px 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,11 +71,15 @@ body {
 
 /* estilos de home galeria */
 .home_galeria {
-  grid-area: galeria; }
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .home_galeria img {
+    margin: 10px; }
 
 /* estilos del home footer */
 .home_footer {
-  grid-area: footer;
   display: flex;
   justify-content: space-evenly;
   margin-top: 50px;
@@ -93,26 +90,13 @@ body {
 .sabores_body {
   background-image: url("assets/background-image.jpg"); }
 
+/* estilos del banner */
+.sabores_banner {
+  background-color: #B2EA70; }
+
 /* estilos de sabores nav */
-.sabores_nav {
-  display: flex;
-  flex-direction: column; }
-  .sabores_nav ul {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    align-items: center; }
-    .sabores_nav ul li {
-      margin: 0 10px;
-      font-size: 20px;
-      padding: 5px 0; }
-      .sabores_nav ul li a {
-        text-decoration: none;
-        background-color: #B2EA70;
-        border-radius: 10px;
-        transition: all, 1s, ease-in-out; }
-        .sabores_nav ul li a:hover {
-          background-color: #FBD148; }
+.bg-color-sabores {
+  background-color: #F9975D; }
 
 /* estilos del sabores header */
 .sabores_header {
@@ -131,6 +115,18 @@ body {
   .sabores_header p {
     text-align: center; }
 
+/* estilos del main */
+.sabores_main {
+  margin-top: 50px; }
+  .sabores_main .sabores_main_section_1 {
+    background-color: #B2EA70;
+    border-radius: 50px;
+    padding: 50px; }
+  .sabores_main .sabores_main_section_2 {
+    background-color: #C85C5C;
+    border-radius: 50px;
+    padding: 50px; }
+
 /* estilos de sabores footer */
 .sabores_footer {
   margin-top: 50px;
@@ -139,17 +135,25 @@ body {
   display: flex;
   flex-direction: column;
   padding: 15px; }
-  .sabores_footer input {
-    width: 500px;
-    height: 150px; }
-  .sabores_footer button {
-    display: flex;
-    margin-left: 20px;
-    border-radius: 100px;
-    align-self: center; }
-  .sabores_footer div {
+  .sabores_footer form {
     display: flex;
     padding: 15px; }
+    .sabores_footer form input {
+      width: 500px;
+      height: 150px; }
+    .sabores_footer form button {
+      display: flex;
+      margin-left: 20px;
+      border-radius: 100px;
+      align-self: center; }
+
+/* estilos del banner */
+.infonutrimental_banner {
+  background-color: #FBD148; }
+
+/* estilos del infonutrimental nav */
+.bg-color-infonutrimental {
+  background-color: #F9975D; }
 
 /* estilos del infonutrimental header */
 .infonutrimental_header {
@@ -189,9 +193,8 @@ body {
 
 .infonutrimental_main_section {
   display: grid;
-  grid-template-areas: "h2"
- "tabla1"
- "tabla2"; }
+  grid-template-areas: "h2" "tabla1" "tabla2";
+  margin-top: 75px; }
 
 .infonutrimental_main_section h2 {
   grid-area: h2; }
@@ -200,19 +203,6 @@ body {
   grid-area: tabla1;
   height: 500px;
   width: 20px; }
-
-.infonutrimental_main_section_tabla_2 {
-  grid-area: tabla2;
-  height: 500px;
-  width: 35px; }
-
-.infonutrimental_main_section h2 {
-  grid-area: h2; }
-
-.infonutrimental_main_section_tabla_1 {
-  grid-area: tabla1;
-  height: 500px;
-  width: 35px; }
 
 .infonutrimental_main_section_tabla_2 {
   grid-area: tabla2;
@@ -230,8 +220,12 @@ body {
 .infonutrimental_main table tbody {
   background-color: #F9975D; }
 
-.infonutrimental_main_section {
-  margin-top: 75px; }
+/* estilos de sección extra */
+.col-sm {
+  background-color: #FBD148;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px; }
 
 /* estilos del infonutrimental footer */
 .infonutrimental_footer {
@@ -241,6 +235,14 @@ body {
   margin-top: 50px;
   font-weight: bold;
   color: #C85C5C; }
+
+/* estilos del banner */
+.contacto_banner {
+  background-color: #B2EA70; }
+
+/* estilos del contacto nav */
+.bg-color-contacto {
+  background-color: #F9975D; }
 
 /* estilos del contacto header */
 .contacto_header {
@@ -313,6 +315,14 @@ body {
   height: 20px;
   width: 20px; }
 
+/* estilos del banner */
+.sobre_nosotros_banner {
+  background-color: #FBD148; }
+
+/* estilos del sobre nosotros nav */
+.bg-color-sobre-nosotros {
+  background-color: #B2EA70; }
+
 /* estilos del sobre nosotros header */
 .sobre_nosotros_header {
   display: flex;
@@ -383,39 +393,25 @@ body {
 /* inicio de las media queries a partir de 768px */
 @media (min-width: 768px) {
   /* media queries para la página home */
-  .home {
-    display: grid;
-    grid-template-areas: "nav nav"
- "header header"
- "main main"
- "galeria galeria"
- "footer footer"; }
   .navbar, .navbar-collapse {
     justify-content: flex-end; }
   /* media queries del home header */
-  .home_header {
-    grid-area: header; }
-    .home_header h1 {
-      font-size: 5em; }
+  .home_header h1 {
+    font-size: 5em; }
   /* media queries del home main */
-  .home_main {
-    grid-area: main; }
   .home_main_section_1 {
-    margin: 100px 50px;
+    margin: 100px 150px;
     font-size: 22px;
     height: 550px;
     width: 550px;
     border-radius: 150px; }
   .home_main_section_2 {
-    margin: 50px 50px 100px 0;
+    margin: 50px 150px 100px 0;
     font-size: 22px;
     height: 500px;
     width: 500px;
     border-radius: 150px;
     align-self: flex-end; }
-  /* media queries del home footer */
-  .home_footer {
-    grid-area: footer; }
   /* media queries para la página sabores */
   /* media queries del sabores header */
   .sabores_header {
@@ -433,20 +429,7 @@ body {
   /* media queries del infonutrimental main */
   .infonutrimental_main_section {
     display: grid;
-    grid-template-areas: "h2 h2"
- "tabla1 tabla2"; }
-  .infonutrimental_main_section h2 {
-    grid-area: h2; }
-  .infonutrimental_main_section_tabla_1 {
-    grid-area: tabla1; }
-  .infonutrimental_main_section_tabla_2 {
-    grid-area: tabla2; }
-  .infonutrimental_main_section h2 {
-    grid-area: h2; }
-  .infonutrimental_main_section_tabla_1 {
-    grid-area: tabla1; }
-  .infonutrimental_main_section_tabla_2 {
-    grid-area: tabla2; }
+    grid-template-areas: "h2 h2" "tabla1 tabla2"; }
   /* media queries para la página contacto */
   /* media queries del contacto main */
   .contacto_main img {

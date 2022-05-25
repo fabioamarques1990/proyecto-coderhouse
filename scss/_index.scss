@@ -1,23 +1,15 @@
-/* diseño del home grid */
-.home {
-    display: grid;
-    grid-template-areas:
-    "nav"
-    "header"
-    "main"
-    "galeria"
-    "footer"
-    ;
+/* estilos del banner */
+.home_banner {
+    background-color: $color-verde;
 }
 
 /* estilos del home nav */
-.navbar {
-    grid-area: nav;
+.bg-color-home {
+    background-color: $color-amarillo;
 }
-
+ 
 /* estilos del home header */
 .home_header {
-    grid-area: header;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -61,14 +53,13 @@
 
 /* estilos del home main */
 .home_main {
-    grid-area: main;
     display: flex;
     flex-direction: column;
     background-image: url('assets/background-image.jpg');
 
 .home_main_section_1 {
         background-color: $color-naranja;
-        margin: 50px 10px;
+        margin: 50px 150px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -84,7 +75,7 @@
 
     .home_main_section_2 {
         background-color: $color-amarillo;
-        margin: 50px 10px;
+        margin: 50px 150px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -101,12 +92,18 @@
 
 /* estilos de home galeria */
 .home_galeria {
-    grid-area: galeria;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        margin: 10px;
+    }
 }
 
 /* estilos del home footer */
 .home_footer {
-    grid-area: footer;
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- palabras clave -->
-    <meta name="keywords" content="helado, boli, paleta, cono, verano, sabroso, cremoso, sabores, agua, leche, contacto, San Luis Potosí, SLP">
+    <meta name="keywords" content="helado, boli, paleta, verano, sabroso, cremoso, sabores, agua, leche, San Luis Potosí">
     <!-- descripción -->
     <meta name="description" content="Aquí vas a encontrar todos los sabores de DeliBoli, de agua y de leche">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -19,13 +19,13 @@
 <body class="sabores-body">
 
     <!-- este es el banner/alert -->
-    <div class="alert alert-warning alert-dismissible fade show" role="alert" style="background-color: #B2EA70">
+    <div class="sabores_banner alert alert-warning alert-dismissible fade show" role="alert">
         <strong>¿Qué? ¿15% de descuento?</strong> Si haces ahora mismo tu compra online, tendrás un descuento de 15% sobre el valor total.
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
       </div>
 
     <!-- inicio del navegador -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-color-sabores">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">Inicio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,13 +60,13 @@
                 Aquí encuentras las listas con todos los sabores de los bolis de agua y leche
             </p>
         </div>
-        <img src="../assets/ejemplo5.jpg" alt="Imagen de boli">
+        <img src="../assets/ejemplo5.jpg" alt="Mujer disfrutando de un helado">
     </header>
 
     <!-- inicio del main -->
-    <main class="container" style="margin-top: 50px;">
+    <main class="sabores_main container">
         <div class="row">
-            <section class="col-sm" style="margin: 15px; background-color: #B2EA70; border-radius: 50px; padding: 15px;">
+            <section class="sabores_main_section_1 col-sm-6">
                 <h2>Agua</h2>
                 <ul>
                     <li>
@@ -102,7 +102,7 @@
                 </ul>
             </section>
 
-            <section class="col-sm" style="margin: 15px; background-color: #C85C5C; border-radius: 50px; padding: 15px;">
+            <section class="sabores_main_section_2 col-sm-6">
                 <h2>Leche</h2>
                 <ul>
                     <li>
@@ -149,10 +149,10 @@
         <p>
             Nos encanta saber cuales son tus bolis favoritos, así que abajo te dejamos un espacio para que hagas tus comentarios. Cuéntanos sobre tus favoritos, algo que no esté tan bien o algún sabor que te gustaría ver en la carta de DeliBoli:
         </p>
-        <div>
-            <input type="text" placeholder="Comenta aquí">
+        <form>
+            <input type="text" placeholder="Comenta aquí" required>
             <button type="submit" value="submit">Enviar</button>
-        </div>
+        </form>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

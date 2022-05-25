@@ -1,3 +1,13 @@
+/* estilos del banner */
+.infonutrimental_banner {
+    background-color: $color-amarillo;
+}
+
+/* estilos del infonutrimental nav */
+.bg-color-infonutrimental {
+    background-color: $color-naranja;
+}
+
 /* estilos del infonutrimental header */
 .infonutrimental_header {
     display: flex;
@@ -50,6 +60,7 @@
     "tabla1"
     "tabla2"
     ;
+    margin-top: 75px;
 }
 
 .infonutrimental_main_section h2 {
@@ -60,22 +71,6 @@
     grid-area: tabla1;
     height: 500px;
     width: 20px;
-}
-
-.infonutrimental_main_section_tabla_2 {
-    grid-area: tabla2;
-    height: 500px;
-    width: 35px;
-}
-
-.infonutrimental_main_section h2 {
-    grid-area: h2;
-}
-
-.infonutrimental_main_section_tabla_1 {
-    grid-area: tabla1;
-    height: 500px;
-    width: 35px;
 }
 
 .infonutrimental_main_section_tabla_2 {
@@ -98,8 +93,12 @@
     background-color: $color-naranja;
 }
 
-.infonutrimental_main_section {
-    margin-top: 75px;
+/* estilos de sección extra */
+.col-sm {
+    background-color: #FBD148;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
 }
 
 /* estilos del infonutrimental footer */

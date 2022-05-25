@@ -3,35 +3,14 @@
     background-image: url('assets/background-image.jpg');
 }
 
+/* estilos del banner */
+.sabores_banner {
+    background-color: $color-verde;
+}
+
 /* estilos de sabores nav */
-.sabores_nav {
-    display: flex;
-    flex-direction: column;
-
-    ul {
-        display: flex;
-        flex-direction: column;
-        list-style-type: none;
-        align-items: center;
-
-        li {
-            margin: 0 10px;
-            font-size: 20px;
-            padding: 5px 0;
-
-            a {
-                text-decoration: none;
-                background-color: $color-verde;
-                border-radius: 10px;
-                transition: all, 1s, ease-in-out;
-
-                &:hover {
-                    background-color: $color-amarillo;
-                }
-            }
-        }
-        
-    }
+.bg-color-sabores {
+    background-color: $color-naranja;
 }
 
 /* estilos del sabores header */
@@ -58,6 +37,23 @@
             }
         }
 
+/* estilos del main */
+.sabores_main {
+    margin-top: 50px;
+
+    .sabores_main_section_1 {
+        background-color: $color-verde;
+        border-radius: 50px;
+        padding: 50px;
+    }
+
+    .sabores_main_section_2 {
+        background-color: $color-rosa;
+        border-radius: 50px;
+        padding: 50px;
+    }
+}
+
 /* estilos de sabores footer */
 .sabores_footer {
     margin-top: 50px;
@@ -67,20 +63,20 @@
     flex-direction: column;
     padding: 15px;
 
-    input {
-        width: 500px;
-        height: 150px;
-    }
-
-    button {
-        display: flex;
-        margin-left: 20px;
-        border-radius: 100px;
-        align-self: center;
-    }
-
-    div {
+    form {
         display: flex;
         padding: 15px;
+
+        input {
+            width: 500px;
+            height: 150px;
+        }
+
+        button {
+            display: flex;
+            margin-left: 20px;
+            border-radius: 100px;
+            align-self: center;
+        }
     }
 }
