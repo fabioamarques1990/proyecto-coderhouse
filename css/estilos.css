@@ -46,7 +46,7 @@ body {
   background-image: url("assets/background-image.jpg"); }
   .home_main .home_main_section_1 {
     background-color: #F9975D;
-    margin: 50px 150px;
+    margin: 50px 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,7 +58,7 @@ body {
     transform: rotate(10deg); }
   .home_main .home_main_section_2 {
     background-color: #FBD148;
-    margin: 50px 150px;
+    margin: 50px 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -180,24 +180,22 @@ body {
 /* estilos del infonutrimental main */
 .infonutrimental_main {
   margin-top: 125px; }
-
-.infonutrimental_main h2 {
-  display: inline-flex;
-  background-color: #C85C5C;
-  padding: 17px;
-  border-radius: 50px;
-  margin-left: 50px;
-  font-style: oblique;
-  color: antiquewhite;
-  width: 125px; }
+  .infonutrimental_main h2 {
+    display: inline-flex;
+    background-color: #C85C5C;
+    padding: 17px;
+    border-radius: 50px;
+    margin-left: 50px;
+    font-style: oblique;
+    color: antiquewhite;
+    width: 125px; }
 
 .infonutrimental_main_section {
   display: grid;
   grid-template-areas: "h2" "tabla1" "tabla2";
   margin-top: 75px; }
-
-.infonutrimental_main_section h2 {
-  grid-area: h2; }
+  .infonutrimental_main_section h2 {
+    grid-area: h2; }
 
 .infonutrimental_main_section_tabla_1 {
   grid-area: tabla1;
@@ -221,11 +219,11 @@ body {
   background-color: #F9975D; }
 
 /* estilos de sección extra */
-.col-sm {
-  background-color: #FBD148;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 25px; }
+.infonutrimental_sección_extra {
+  margin-top: 75px; }
+  .infonutrimental_sección_extra .col-sm {
+    margin: 10px 3px;
+    background-color: #FBD148; }
 
 /* estilos del infonutrimental footer */
 .infonutrimental_footer {
@@ -272,11 +270,10 @@ body {
   padding-top: 100px;
   display: flex;
   flex-direction: column; }
+  .contacto_main img {
+    display: none; }
 
-.contacto_main img {
-  display: none; }
-
-.contacto_main_section_div_1, .contacto_main_section_div_2 {
+.contacto_main_section_1, .contacto_main_section_2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -284,15 +281,15 @@ body {
   border-radius: 22%;
   margin: 8px;
   height: 450px; }
-  .contacto_main_section_div_1 p, .contacto_main_section_div_2 p {
+  .contacto_main_section_1 p, .contacto_main_section_2 p {
     font-size: 18px;
     color: antiquewhite;
     margin: 0 10px; }
 
-.contacto_main_section_div_2 {
+.contacto_main_section_2 {
   background-color: #B2EA70;
   height: 710px; }
-  .contacto_main_section_div_2 p {
+  .contacto_main_section_2 p {
     color: black; }
 
 /* estilos del contacto footer */
@@ -302,18 +299,25 @@ body {
   font-size: 24px;
   margin: 72px 0; }
 
+.contacto_footer input {
+  margin: 10px 0; }
+
+.contacto_footer button {
+  background-color: #B2EA70; }
+
 .contacto_footer ul {
   display: flex;
   list-style: none;
   justify-content: center;
-  margin-top: 75px; }
+  margin-top: 75px;
+  padding: 0; }
 
 .contacto_footer li {
   padding: 0 8px; }
 
 .contacto_footer img {
-  height: 20px;
-  width: 20px; }
+  height: 22px;
+  width: 22px; }
 
 /* estilos del banner */
 .sobre_nosotros_banner {
@@ -344,19 +348,17 @@ body {
   background-color: #B2EA70;
   justify-content: space-around;
   transition: all, 1s, ease-in-out; }
+  .sobre_nosotros_main_section_1 h2 {
+    padding: 15px;
+    border-radius: 40%;
+    text-align: center;
+    font-size: 2em; }
+  .sobre_nosotros_main_section_1 p {
+    font-size: 20px;
+    margin: 5px 10px; }
 
 .sobre_nosotros_main_section_1:hover {
   opacity: .8; }
-
-.sobre_nosotros_main_section_1 h2 {
-  padding: 15px;
-  border-radius: 40%;
-  text-align: center;
-  font-size: 2em; }
-
-.sobre_nosotros_main_section_1 p {
-  font-size: 20px;
-  margin: 5px 10px; }
 
 .sobre_nosotros_main_section_2 {
   margin: 50px 15px;
@@ -365,26 +367,32 @@ body {
   background-color: #F9975D;
   justify-content: space-around;
   transition: all, 1s, ease-in-out; }
+  .sobre_nosotros_main_section_2 h2 {
+    padding: 15px;
+    border-radius: 40%;
+    text-align: center;
+    font-size: 2em; }
+  .sobre_nosotros_main_section_2 p {
+    font-size: 20px;
+    margin: 5px 10px; }
 
 .sobre_nosotros_main_section_2:hover {
   opacity: .8; }
 
-.sobre_nosotros_main_section_2 h2 {
-  padding: 15px;
-  border-radius: 40%;
-  text-align: center;
-  font-size: 2em; }
-
-.sobre_nosotros_main_section_2 p {
-  font-size: 20px;
-  margin: 5px 10px; }
+/* estilos de la sección extra de sobre nosotros */
+.sobre_nosotros_sección_extra {
+  margin-top: 75px; }
+  .sobre_nosotros_sección_extra img {
+    margin: 5px; }
+  .sobre_nosotros_sección_extra .col-sm {
+    background-color: #FBD148;
+    margin: 10px 3px; }
 
 /* estilos del sobre nosotros footer */
 .sobre_nosotros_footer {
-  grid-area: footer;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 100px;
+  margin-top: 50px;
   font-weight: bold;
   color: #C85C5C; }
 
@@ -393,14 +401,15 @@ body {
 /* inicio de las media queries a partir de 768px */
 @media (min-width: 768px) {
   /* media queries para la página home */
-  .navbar, .navbar-collapse {
+  .navbar,
+  .navbar-collapse {
     justify-content: flex-end; }
   /* media queries del home header */
   .home_header h1 {
     font-size: 5em; }
   /* media queries del home main */
   .home_main_section_1 {
-    margin: 100px 150px;
+    margin: 100px 50px 100px 150px;
     font-size: 22px;
     height: 550px;
     width: 550px;
@@ -432,51 +441,40 @@ body {
     grid-template-areas: "h2 h2" "tabla1 tabla2"; }
   /* media queries para la página contacto */
   /* media queries del contacto main */
-  .contacto_main img {
-    display: block;
-    padding: 15px;
-    border-radius: 40%; }
   .contacto_main {
     padding-top: 100px;
-    display: flex;
-    flex-direction: column; }
-  .contacto_main_section_1 {
+    display: flex; }
+    .contacto_main img {
+      display: block;
+      padding: 15px;
+      border-radius: 40%; }
+  .contacto_main_section_1, .contacto_main_section_2 {
     margin: 50px 15px;
-    display: flex;
-    flex-direction: column;
-    background-color: #F9975D;
     height: 450px;
     width: 85%;
     border-radius: 22%;
     justify-content: space-around; }
-  .contacto_main_section_div_1, .contacto_main_section_div_2 {
-    display: flex;
-    margin: 50px; }
-  .contacto_main img {
-    display: block; }
-  .contacto_main_section_2 img {
-    height: 250px;
-    width: 150px;
-    align-self: center; }
-  .contacto_main_section_div_1 p, .contacto_main_section_div_2 p {
-    font-size: 20px;
-    color: antiquewhite; }
+    .contacto_main_section_1 p, .contacto_main_section_2 p {
+      font-size: 20px; }
   .contacto_main_section_2 {
     margin: 50px 15px;
-    display: flex;
-    flex-direction: column;
-    background-color: #B2EA70;
     height: 450px;
     width: 85%;
     border-radius: 22%;
     justify-content: space-around;
     align-self: flex-end; }
-  .contacto_main_section_div_2 {
-    display: flex;
-    margin: 50px; }
-  .contacto_main_section_div_2 p {
-    font-size: 20px; }
-  /* media queries para la página spbre nosotros */
+    .contacto_main_section_2 img {
+      height: 250px;
+      width: 250px;
+      align-self: center; }
+    .contacto_main_section_2 p {
+      font-size: 20px; }
+  .contacto_footer input {
+    margin: 10px 10px; }
+  .contacto_footer img {
+    height: 26px;
+    width: 26px; }
+  /* media queries para la página sobre nosotros */
   /* media queries del sobre nosotros main */
   .sobre_nosotros_main {
     display: flex;

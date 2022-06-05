@@ -43,14 +43,13 @@
     padding-top: 100px;
     display: flex;
     flex-direction: column;
+
+    img {
+        display: none;
+    }
 }
 
-
-.contacto_main img {
-    display: none;
-}
-
-.contacto_main_section_div_1 {
+.contacto_main_section_1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -66,8 +65,8 @@
     }
 }
 
-.contacto_main_section_div_2 {
-    @extend .contacto_main_section_div_1;
+.contacto_main_section_2 {
+    @extend .contacto_main_section_1;
     background-color: $color-verde;
     height: 710px;
 
@@ -86,18 +85,28 @@
         margin: 72px 0;
     }
 
+    input {
+        margin: 10px 0;
+    }
+
+    button {
+        background-color: $color-verde;
+    }
+
     ul {
         display: flex;
         list-style: none;
         justify-content: center;
         margin-top: 75px;
+        padding: 0;
     }
+
     li {
         padding: 0 8px;
     }
 
     img {
-        height: 20px;
-        width: 20px;
+        height: 22px;
+        width: 22px;
     }
 }

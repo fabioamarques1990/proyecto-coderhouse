@@ -4,7 +4,7 @@ $breakpoints: (
     mobile: 320px,
     tablet: 768px,
     desktop: 1024px
-); 
+);
 
 @mixin breakpoint ($dispositivo) {
     @if map-has-key($breakpoints, $dispositivo) {
@@ -15,16 +15,17 @@ $breakpoints: (
 }
 
 /* inicio de las media queries a partir de 768px */
-    @include breakpoint(tablet) {
-        
+@include breakpoint(tablet) {
+
     /* media queries para la página home */
-    .navbar, .navbar-collapse {
+    .navbar,
+    .navbar-collapse {
         justify-content: flex-end;
     }
 
     /* media queries del home header */
     .home_header {
-        
+
         h1 {
             font-size: 5em;
         }
@@ -32,7 +33,7 @@ $breakpoints: (
 
     /* media queries del home main */
     .home_main_section_1 {
-        margin: 100px 150px;
+        margin: 100px 50px 100px 150px;
         font-size: 22px;
         height: 550px;
         width: 550px;
@@ -66,102 +67,91 @@ $breakpoints: (
         }
     }
 
-        /* media queries para la página infonutrimental */
+    /* media queries para la página infonutrimental */
 
-        /* media queries del infonutrimental main */
-        .infonutrimental_main_section {
-            display: grid;
-            grid-template-areas:
+    /* media queries del infonutrimental main */
+    .infonutrimental_main_section {
+        display: grid;
+        grid-template-areas:
             "h2 h2"
             "tabla1 tabla2"
-            ;
-        }
+        ;
+    }
 
-        /* media queries para la página contacto */
+    /* media queries para la página contacto */
 
-        /* media queries del contacto main */
-        .contacto_main img {
+    /* media queries del contacto main */
+    .contacto_main {
+        padding-top: 100px;
+        display: flex;
+
+        img {
             display: block;
             padding: 15px;
             border-radius: 40%;
         }
+    }
 
-        .contacto_main {
-            padding-top: 100px;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .contacto_main_section_1 {
-            margin: 50px 15px;
-            display: flex;
-            flex-direction: column;
-            background-color: $color-naranja;
-            height: 450px;
-            width: 85%;
-            border-radius: 22%;
-            justify-content: space-around;
-        }
-        
-        .contacto_main_section_div_1 {
-            display: flex;
-            margin: 50px;
-        }
-        
-        .contacto_main img {
-            display: block;
-        }
-        .contacto_main_section_2 img {
-            height: 250px;
-            width: 150px;
-            align-self: center;
-        }
-        
-        .contacto_main_section_div_1 p {
+    .contacto_main_section_1 {
+        margin: 50px 15px;
+        height: 450px;
+        width: 85%;
+        border-radius: 22%;
+        justify-content: space-around;
+
+        p {
             font-size: 20px;
-            color: antiquewhite;
-        }
-        
-        .contacto_main_section_2 {
-            margin: 50px 15px;
-            display: flex;
-            flex-direction: column;
-            background-color: $color-verde;
-            height: 450px;
-            width: 85%;
-            border-radius: 22%;
-            justify-content: space-around;
-            align-self: flex-end;
-        
-        }
-        
-        .contacto_main_section_div_2 {
-            display: flex;
-            margin: 50px;
-        }
-        
-        .contacto_main_section_div_2 p {
-            font-size: 20px;
-        }
-
-        /* media queries para la página spbre nosotros */
-        
-        /* media queries del sobre nosotros main */
-        .sobre_nosotros_main {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .sobre_nosotros_main_section_1 {
-            border-radius: 50px;
-            height: 350px;
-            width: 800px;
-        }
-
-        .sobre_nosotros_main_section_2 {
-            border-radius: 50px;
-            height: 350px;
-            width: 800px;
-            align-self: flex-end;
         }
     }
+
+    .contacto_main_section_2 {
+        margin: 50px 15px;
+        height: 450px;
+        width: 85%;
+        border-radius: 22%;
+        justify-content: space-around;
+        align-self: flex-end;
+
+        img {
+            height: 250px;
+            width: 250px;
+            align-self: center;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .contacto_footer {
+        input {
+            margin: 10px 10px;
+        }
+
+        img {
+            height: 26px;
+            width: 26px;
+        }
+    }
+
+    /* media queries para la página sobre nosotros */
+
+    /* media queries del sobre nosotros main */
+    .sobre_nosotros_main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre_nosotros_main_section_1 {
+        border-radius: 50px;
+        height: 350px;
+        width: 800px;
+    }
+
+    .sobre_nosotros_main_section_2 {
+        border-radius: 50px;
+        height: 350px;
+        width: 800px;
+        align-self: flex-end;
+    }
+}

@@ -40,17 +40,17 @@
 /* estilos del infonutrimental main */
 .infonutrimental_main {
     margin-top: 125px;
-}
 
-.infonutrimental_main h2 {
-    display: inline-flex;
-    background-color: $color-rosa;
-    padding: 17px;
-    border-radius: 50px;
-    margin-left: 50px;
-    font-style: oblique;
-    color: antiquewhite;
-    width: 125px;
+    h2 {
+        display: inline-flex;
+        background-color: $color-rosa;
+        padding: 17px;
+        border-radius: 50px;
+        margin-left: 50px;
+        font-style: oblique;
+        color: antiquewhite;
+        width: 125px;
+    }
 }
 
 .infonutrimental_main_section {
@@ -61,10 +61,10 @@
     "tabla2"
     ;
     margin-top: 75px;
-}
 
-.infonutrimental_main_section h2 {
-    grid-area: h2;
+    h2 {
+        grid-area: h2;
+    }
 }
 
 .infonutrimental_main_section_tabla_1 {
@@ -94,11 +94,13 @@
 }
 
 /* estilos de sección extra */
-.col-sm {
-    background-color: #FBD148;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 25px;
+.infonutrimental_sección_extra {
+    margin-top: 75px;
+
+    .col-sm {
+        margin: 10px 3px;
+        background-color: $color-amarillo;
+    }
 }
 
 /* estilos del infonutrimental footer */
