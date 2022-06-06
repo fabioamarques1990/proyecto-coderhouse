@@ -193,7 +193,8 @@ body {
 .infonutrimental_main_section {
   display: grid;
   grid-template-areas: "h2" "tabla1" "tabla2";
-  margin-top: 75px; }
+  margin-top: 75px;
+  margin-left: 27px; }
   .infonutrimental_main_section h2 {
     grid-area: h2; }
 
@@ -222,8 +223,10 @@ body {
 .infonutrimental_sección_extra {
   margin-top: 75px; }
   .infonutrimental_sección_extra .col-sm {
-    margin: 10px 3px;
-    background-color: #FBD148; }
+    margin: 10px 35px;
+    background-color: #FBD148;
+    height: auto;
+    width: 250px; }
 
 /* estilos del infonutrimental footer */
 .infonutrimental_footer {
@@ -300,7 +303,9 @@ body {
   margin: 72px 0; }
 
 .contacto_footer input {
-  margin: 10px 0; }
+  margin: 10px 0;
+  background-color: #FBD148;
+  border-radius: 25px; }
 
 .contacto_footer button {
   background-color: #B2EA70; }
@@ -383,10 +388,13 @@ body {
 .sobre_nosotros_sección_extra {
   margin-top: 75px; }
   .sobre_nosotros_sección_extra img {
-    margin: 5px; }
+    margin: 5px 24px; }
   .sobre_nosotros_sección_extra .col-sm {
     background-color: #FBD148;
-    margin: 10px 3px; }
+    margin: 10px 35px;
+    padding: 15px;
+    height: auto;
+    width: 250px; }
 
 /* estilos del sobre nosotros footer */
 .sobre_nosotros_footer {

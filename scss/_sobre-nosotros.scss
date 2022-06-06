@@ -81,12 +81,15 @@
     margin-top: 75px;
 
     img {
-        margin: 5px;
+        margin: 5px 24px;
     }
 
     .col-sm {
         background-color: $color-amarillo;
-        margin: 10px 3px;
+        margin: 10px 35px;
+        padding: 15px;
+        height: auto;
+        width: 250px;
     }
 }
 

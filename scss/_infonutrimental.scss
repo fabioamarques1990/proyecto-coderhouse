@@ -61,6 +61,7 @@
     "tabla2"
     ;
     margin-top: 75px;
+    margin-left: 27px;
 
     h2 {
         grid-area: h2;
@@ -98,8 +99,10 @@
     margin-top: 75px;
 
     .col-sm {
-        margin: 10px 3px;
+        margin: 10px 35px;
         background-color: $color-amarillo;
+        height: auto;
+        width: 250px;
     }
 }
 
